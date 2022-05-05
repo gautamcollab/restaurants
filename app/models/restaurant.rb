@@ -7,9 +7,10 @@ class Restaurant < ActiveRecord::Base
     end 
 
 #    def all_reviews 
-#     do |r| 
-#         "Review for #{self.name} by " 
-    binding.pry 
+
+#     "Review for #{self.name} by #{customer.first_name} #{customer.last_name}: #{review.star_rating}"
+#    do |r| 
+#     end 
 #    end 
     
 end
